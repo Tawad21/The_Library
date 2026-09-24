@@ -72,11 +72,11 @@ class SidebarView(ctk.CTkFrame):
     def toggle_visibility(self, visible: bool):
         if visible:
             self.grid()
-            self.books_button.pack_forget()
-            self.calendar_button.pack_forget()
-            self.lent_button.pack_forget()
-            self.clients_button.pack_forget()
-            self.overview_button.pack_forget()
+            # self.books_button.pack_forget()
+            # self.calendar_button.pack_forget()
+            # self.lent_button.pack_forget()
+            # self.clients_button.pack_forget()
+            # self.overview_button.pack_forget()
             self.overview_button.pack(side=ctk.TOP, fill=ctk.X)
             self.books_button.pack(side=ctk.TOP, fill=ctk.X)
             self.clients_button.pack(side=ctk.TOP, fill=ctk.X)
